@@ -20,7 +20,7 @@ int main() {
     for(int i = 0; i < n; i++){
         scanf("%lf", &y[i]);
     }
-    gauss(a, m, n);
-    //solve(a, y, m, n);
+    //gauss(a, m, n);
+    solve(a, y, m, n);
     return 0;
 }
